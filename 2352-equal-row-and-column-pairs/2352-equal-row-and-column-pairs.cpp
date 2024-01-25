@@ -1,30 +1,26 @@
 class Solution {
 public:
     int equalPairs(vector<vector<int>>& grid) {
-        // Brute Force : For each row check every column O(n^3)
+       // Optimal Approach using map
         int n = grid.size();
-        int count = 0;
+        int count = 0; 
+        map<vector<int>,int>mp;
 
-        // Fix the row
+        // Store each row(key) and it's occurence(value) in map
         for(int row=0; row<n; row++){
-            // Fix the column
-            for(int col = 0; col<n; col++){
-                bool isEqual = true;
-                // Check each element in the row and corresponding column
-                for(int k=0; k<n; k++){
-                    if( grid[row][k] != grid[k][col]){
-                        isEqual = false;
-                        break;
-                    }
-                }
-                // If the row and column are equal, increment the count
-                if(isEqual){
-                    count++;
-                }
+            mp[grid[row]]++;
+        }
+
+        // Extract elements from the current column and check if it already present in map
+        for(int col=0; col<n; col++){
+            vector<int>temp;
+            for(int row=0; row<n; row++){
+                temp.push_back(grid[row][col]);
             }
+
+            count += mp[temp];
         }
 
         return count;
-
     }
 };
