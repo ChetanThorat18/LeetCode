@@ -1,4 +1,4 @@
-The time complexity of the provided code is O((m + n) log m), where 'm' is the number of flowers and 'n' is the number of people.
+The time complexity of the code is O((m + n) log m), where 'm' is the number of flowers and 'n' is the number of people.
 
 Here's the breakdown:
 
