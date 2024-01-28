@@ -40,6 +40,7 @@
 | 67          | [Add Binary](Leetcode_Problems/0067-add-binary) | Easy |
 | 69          | [Sqrt(x)](Leetcode_Problems/0069-sqrtx) | Easy |
 | 70          | [Climbing Stairs](Leetcode_Problems/0070-climbing-stairs) | Easy |
+| 73           | [Set Matrix Zeroes](Leetcode_Problems/0073-set-matrix-zeroes) | Medium |
 | 74          | [Search a 2D Matrix](Leetcode_Problems/0074-search-a-2d-matrix) | Medium |
 | 80          | [Remove Duplicates from Sorted Array II](Leetcode_Problems/0080-remove-duplicates-from-sorted-array-ii) | Medium |
 | 83          | [Remove Duplicates from Sorted List](Leetcode_Problems/0083-remove-duplicates-from-sorted-list) | Easy |
@@ -68,6 +69,7 @@
 | 206         | [Reverse Linked List](Leetcode_Problems/0206-reverse-linked-list) | Easy |
 | 215         | [Kth Largest Element in an Array](Leetcode_Problems/0215-kth-largest-element-in-an-array) | Medium |
 | 217         | [Contains Duplicate](Leetcode_Problems/0217-contains-duplicate) | Easy |
+| 224           | [Basic Calculator](Leetcode_Problems/0224-basic-calculator) | Hard |
 | 234         | [Palindrome Linked List](Leetcode_Problems/0234-palindrome-linked-list) | Easy |
 | 237         | [Delete Node in a Linked List](Leetcode_Problems/0237-delete-node-in-a-linked-list) | Easy |
 | 238         | [Product of Array Except Self](Leetcode_Problems/0238-product-of-array-except-self) | Medium |
@@ -78,6 +80,7 @@
 | 344         | [Reverse String](Leetcode_Problems/0344-reverse-string) | Easy |
 | 345         | [Reverse Vowels of a String](Leetcode_Problems/0345-reverse-vowels-of-a-string) | Easy |
 | 347         | [Top K Frequent Elements](Leetcode_Problems/0347-top-k-frequent-elements) | Medium |
+| 367           | [Valid Perfect Square](Leetcode_Problems/0367-valid-perfect-square) | Easy |
 | 374         | [Guess Number Higher or Lower](Leetcode_Problems/0374-guess-number-higher-or-lower) | Easy |
 | 382         | [Linked List Random Node](Leetcode_Problems/0382-linked-list-random-node) | Medium |
 | 387         | [First Unique Character in a String](Leetcode_Problems/0387-first-unique-character-in-a-string) | Easy |
@@ -90,6 +93,7 @@
 | 557         | [Reverse Words in a String III](Leetcode_Problems/0557-reverse-words-in-a-string-iii) | Easy |
 | 658         | [Find K Closest Elements](Leetcode_Problems/0658-find-k-closest-elements) | Medium |
 | 704         | [Binary Search](Leetcode_Problems/0704-binary-search) | Easy |
+| 744           | [Find Smallest Letter Greater Than Target](Leetcode_Problems/0744-find-smallest-letter-greater-than-target) | Easy |
 | 852         | [Peak Index in a Mountain Array](Leetcode_Problems/0852-peak-index-in-a-mountain-array) | Easy |
 | 875         | [Koko Eating Bananas](Leetcode_Problems/0875-koko-eating-bananas) | Medium |
 | 876         | [Middle of the Linked List](Leetcode_Problems/0876-middle-of-the-linked-list) | Easy |
