@@ -32,7 +32,9 @@ public:
             Note: We skip the first row and first column during this iteration because they were used
             to store information about which rows and columns need to be zeroed.
 
-            The reason is that during the iteration through the rest of the matrix, we rely on the information stored in the first row and column to determine whether a particular element needs to be zeroed. If we zero the first row and column too early, we might lose that information, leading to incorrect results. Elements that should not be zeroed might get zeroed, and the final matrix won't accurately represent the locations of zeros.
+            The reason is that during the iteration through the rest of the matrix, we rely on the information stored in the first row and column to determine 
+            whether a particular element needs to be zeroed. If we zero the first row and column too early, we might lose that information, leading to incorrect 
+            results. Elements that should not be zeroed might get zeroed, and the final matrix won't accurately represent the locations of zeros.
  
         */
 
@@ -73,6 +75,7 @@ public:
 
 
 /*
-   If we change the sequence of the operations in STEP 3, it might result in incorrect zeroing. For example, if we zero the first column before checking whether the first row needs to be zeroed, you might lose information about the first row, leading to incorrect results.
+   If we change the sequence of the operations in STEP 3, it might result in incorrect zeroing. For example, if we zero the first column before checking whether
+   the first row needs to be zeroed, you might lose information about the first row, leading to incorrect results.
 
 */
