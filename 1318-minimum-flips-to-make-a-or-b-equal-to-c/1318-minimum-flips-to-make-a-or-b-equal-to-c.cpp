@@ -1,8 +1,11 @@
 class Solution {
 public:
     int minFlips(int a, int b, int c) {
+        // Time Complexity : O(1)
          int differingBits = (a | b) ^ c ; 
         return __builtin_popcount(differingBits) + __builtin_popcount( (a&b) & ( (a | b) ^ c) );
+
+        // __builtin_popcount() counts the no of set bits ('1') in number 
     }
 };
 
