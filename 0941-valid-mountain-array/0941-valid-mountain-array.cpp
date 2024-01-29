@@ -1,28 +1,34 @@
 class Solution {
 public:
     bool validMountainArray(vector<int>& arr) {
-       int n = arr.size();
-       if(n < 3)
-        return false;
+        /* Approach =>  Two people climb from left and from right separately.
+         If they are climbing the same mountain,
+         they will meet at the same point.  */ 
 
-       int i=0;
-       while( (i < n-1)  && arr[i] < arr[i+1] ){
-           i++;
-       }
-        if ( i == 0 || i == n - 1) {
+        int n = arr.size();
+        if (n < 3) {
             return false;
         }
-       // Now , we are at peak
 
-       while(i < n-1 && arr[i] > arr[i+1]){
-           i++;
-       }
+        int left = 0, right = n - 1;
 
-       if(i == n-1){
-           return true;
-       }
-       else{
-           return false;
-       }
+        // Left Climbing
+        while (left < n - 1 && arr[left] < arr[left + 1]) {
+            left++;
+        }
+
+        // Right Climbing
+        while (right > 0 && arr[right] < arr[right - 1]) {
+            right--;
+        }
+
+        // Check Validity
+        return left > 0 && right < n - 1 && left == right;
     }
 };
+
+
+/*
+    If complete array is in decreasing order ,  left will remain at  0 
+    If complete array is in increasing order right will be at n-1 , return false in these cases
+*/
