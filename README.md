@@ -2,7 +2,7 @@
 
 ## About
 
-This repository contains my solutions to various LeetCode problems I have solved so far. It serves as a personal log of my coding journey and a resource for anyone seeking to expand their coding skills and conquer LeetCode challenges.
+This repository contains my solutions to various LeetCode problems I have solved so far. 
 
 Each solution is implemented in C++, and the solutions are organized by problem number.Navigate to each problem through [Navigate.md](Navigate.md).
 
