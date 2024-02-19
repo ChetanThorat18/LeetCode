@@ -44,6 +44,7 @@
 | 70          | [Climbing Stairs](Leetcode_Problems/0070-climbing-stairs) | Easy |
 | 73           | [Set Matrix Zeroes](Leetcode_Problems/0073-set-matrix-zeroes) | Medium |
 | 74          | [Search a 2D Matrix](Leetcode_Problems/0074-search-a-2d-matrix) | Medium |
+| 76          |[Minimum Window Substring](Leetcode_Problems/0076-minimum-window-substring) | Hard |
 | 80          | [Remove Duplicates from Sorted Array II](Leetcode_Problems/0080-remove-duplicates-from-sorted-array-ii) | Medium |
 | 83          | [Remove Duplicates from Sorted List](Leetcode_Problems/0083-remove-duplicates-from-sorted-list) | Easy |
 | 84          | [Largest Rectangle in Histogram](Leetcode_Problems/0084-largest-rectangle-in-histogram) | Hard |
@@ -71,14 +72,18 @@
 | 191         | [Number of 1 Bits](Leetcode_Problems/0191-number-of-1-bits) | Easy |
 | 202         | [Happy Number](Leetcode_Problems/0202-happy-number) | Easy |
 | 203         | [Remove Linked List Elements](Leetcode_Problems/0203-remove-linked-list-elements) | Easy |
+| 209         | [Minimum Size Subarray Sum](Leetcode_Problems/0209-minimum-size-subarray-sum) | Medium |
 | 206         | [Reverse Linked List](Leetcode_Problems/0206-reverse-linked-list) | Easy |
 | 215         | [Kth Largest Element in an Array](Leetcode_Problems/0215-kth-largest-element-in-an-array) | Medium |
 | 217         | [Contains Duplicate](Leetcode_Problems/0217-contains-duplicate) | Easy |
-| 224           | [Basic Calculator](Leetcode_Problems/0224-basic-calculator) | Hard |
+| 219          | [Contains Duplicate II](Leetcode_Problems/0219-contains-duplicate-ii) | Easy |
+| 224          | [Basic Calculator](Leetcode_Problems/0224-basic-calculator) | Hard |
+| 231          | [Power of Two](Leetcode_Problems/0231-power-of-two) | Easy |
 | 234         | [Palindrome Linked List](Leetcode_Problems/0234-palindrome-linked-list) | Easy |
 | 237         | [Delete Node in a Linked List](Leetcode_Problems/0237-delete-node-in-a-linked-list) | Easy |
 | 238         | [Product of Array Except Self](Leetcode_Problems/0238-product-of-array-except-self) | Medium |
 | 242         | [Valid Anagram](Leetcode_Problems/0242-valid-anagram) | Easy |
+| 258        | [Add Digits](Leetcode_Problems/0258-add-digits) | Easy |
 | 268         | [Missing Number](Leetcode_Problems/0268-missing-number) | Easy |
 | 283         | [Move Zeroes](Leetcode_Problems/0283-move-zeroes) | Easy |
 | 328         | [Odd Even Linked List](Leetcode_Problems/0328-odd-even-linked-list) | Medium |
@@ -92,7 +97,9 @@
 | 387         | [First Unique Character in a String](Leetcode_Problems/0387-first-unique-character-in-a-string) | Easy |
 | 389         | [Find the Difference](Leetcode_Problems/0389-find-the-difference) | Easy |
 | 414         | [Third Maximum Number](Leetcode_Problems/0414-third-maximum-number) | Easy |
+| 438         | [Find All Anagrams in a String](Leetcode_Problems/0438-find-all-anagrams-in-a-string) | Medium |
 | 443         | [String Compression](Leetcode_Problems/0443-string-compression) | Medium |
+| 455         | [Assign Cookies](Leetcode_Problems/0455-assign-cookies) | Easy |
 | 496         | [Next Greater Element I](Leetcode_Problems/0496-next-greater-element-i) | Easy |
 | 498         | [Diagonal Traverse](Leetcode_Problems/0498-diagonal-traverse) | Medium |
 | 503         | [Next Greater Element II](Leetcode_Problems/0503-next-greater-element-ii) | Medium |
@@ -117,7 +124,9 @@
 | 1318        | [Minimum Flips to Make a OR b Equal to c](Leetcode_Problems/1318-minimum-flips-to-make-a-or-b-equal-to-c) | Medium |
 | 1329        | [Sort the Matrix Diagonally](Leetcode_Problems/1329-sort-the-matrix-diagonally) | Medium |
 | 1356        | [Sort Integers by The Number of 1 Bits](Leetcode_Problems/1356-sort-integers-by-the-number-of-1-bits) | Easy |
+| 1422        | [Maximum Score After Splitting a String](Leetcode_Problems/1422-maximum-score-after-splitting-a-string) | Easy |
 | 1436        | [Destination City](Leetcode_Problems/1436-destination-city) | Easy |
+| 1456       | [Maximum Number of Vowels in a Substring of Given Length](Leetcode_Problems/1456-maximum-number-of-vowels-in-a-substring-of-given-length) | Medium |
 | 1464        | [Maximum Product of Two Elements in an Array](Leetcode_Problems/1464-maximum-product-of-two-elements-in-an-array) | Easy |
 | 1496        | [Path Crossing](Leetcode_Problems/1496-path-crossing) | Easy |
 | 1512        | [Number of Good Pairs](Leetcode_Problems/1512-number-of-good-pairs) | Easy |
@@ -130,14 +139,18 @@
 | 1688        | [Count of Matches in Tournament](Leetcode_Problems/1688-count-of-matches-in-tournament) | Easy |
 | 1704        | [Determine if String Halves Are Alike](Leetcode_Problems/1704-determine-if-string-halves-are-alike) | Easy |
 | 1721        | [Swapping Nodes in a Linked List](Leetcode_Problems/1721-swapping-nodes-in-a-linked-list) | Medium |
+| 1758        | [Minimum Changes to Make Alternating Binary String](Leetcode_Problems/1758-minimum-changes-to-make-alternating-binary-string) | Easy |
 | 1743        | [Restore The Array From Adjacent Pairs](Leetcode_Problems/1743-restore-the-array-from-adjacent-pairs) | Medium |
+| 1814        | [Count Nice Pairs in an Array](Leetcode_Problems/1814-count-nice-pairs-in-an-array) | Medium |
 | 1822        | [Sign of the Product of an Array](Leetcode_Problems/1822-sign-of-the-product-of-an-array) | Easy |
 | 1832        | [Check If The Sentence Is Pangram](Leetcode_Problems/1832-check-if-the-sentence-is-pangram) | Easy |
 | 1864        | [Minimum Number of Swaps to Make the Binary String Alternating](Leetcode_Problems/1864-minimum-number-of-swaps-to-make-the-binary-string-alternating) | Medium |
 | 1870        | [Minimum Speed to Arrive on Time](Leetcode_Problems/1870-minimum-speed-to-arrive-on-time) | Medium |
+| 1897 | [Redistribute Characters to Make All Strings Equal](Leetcode_Problems/1897-redistribute-characters-to-make-all-strings-equal) | Easy |
 | 1903        | [Largest Odd Number in String](Leetcode_Problems/1903-largest-odd-number-in-string) | Easy |
 | 1913        | [Maximum Product Difference Between Two Pairs](Leetcode_Problems/1913-maximum-product-difference-between-two-pairs) | Easy |
 | 2024        | [Maximize the Confusion of an Exam](Leetcode_Problems/2024-maximize-the-confusion-of-an-exam) | Medium |
+| 2090        | [K-Radius Subarray Averages](Leetcode_Problems/2090-k-radius-subarray-averages) | Medium |
 | 2095        | [Delete the Middle Node of a Linked List](Leetcode_Problems/2095-delete-the-middle-node-of-a-linked-list) | Medium |
 | 2104        | [Sum of Subarray Ranges](Leetcode_Problems/2104-sum-of-subarray-ranges) | Hard |
 | 2130        | [Maximum Twin Sum of a Linked List](Leetcode_Problems/2130-maximum-twin-sum-of-a-linked-list) | Medium |
