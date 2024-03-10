@@ -45,5 +45,7 @@ public:
 };
 
 /*
-    Time Complexity :
+    Time Complexity : For Sorting =>  O(n1 * logn1) + O(n2 * logn2)
+
+    O(n1 + n2)
 */
