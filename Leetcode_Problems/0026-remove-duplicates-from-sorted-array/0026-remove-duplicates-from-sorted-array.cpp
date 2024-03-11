@@ -19,3 +19,31 @@ public:
         return j;
     }
 };
+
+
+/*********************************************************************************************************/
+
+
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        int n = nums.size();
+
+        int i = 0, j = 1;
+        // i ==> i will insert unique character found by j
+        // j ==> j will search for unique character
+        while (j < n) {
+            // If character at i and j are not equal , means we have got a unique character
+            if (nums[i] != nums[j]) {
+                // Insert unique character at position pointed by i
+                nums[++i] = nums[j];
+            }
+
+            // j will keep searching for unique character
+            j++;
+        }
+
+        // return number of unique characters found 
+        return i+1;
+    }
+};
