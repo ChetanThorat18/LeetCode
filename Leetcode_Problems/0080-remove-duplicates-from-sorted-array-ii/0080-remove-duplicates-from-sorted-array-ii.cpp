@@ -1,20 +1,26 @@
-#include <vector>
-
 class Solution {
 public:
-    int removeDuplicates(std::vector<int>& nums) {
-        int i = 0;
+    int removeDuplicates(vector<int>& nums) {
 
-        // Iterate through the array
-        for (auto element : nums) {
-            // Keep the first two occurrences of each unique element
-            // or when the current element is different from the one two positions back
+        // Initialize a pointer i to track the position where the next non-duplicate element will be placed
+        int i = 0;
+        
+        for (int &element : nums) {
+            // Check if the current element is the first or second element in the array,
+            // or if the element at position i - 2 is different from the current element
             if (i == 0 || i == 1 || nums[i - 2] != element) {
+                // If any of the above conditions are true, it means the current element is not a duplicate
+                // or is the first occurrence of a potentially duplicated element
+                
+                // Place the current element at the position indicated by i in the nums array
                 nums[i] = element;
+                
+                // Increment the pointer i to prepare for the next element
                 i++;
             }
         }
+        
 
-        return i; // i represents the length of the modified array with at most two occurrences of each unique element
+       return i;
     }
 };
