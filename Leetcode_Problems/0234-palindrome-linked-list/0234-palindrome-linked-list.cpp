@@ -1,56 +1,46 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
-    ListNode*  reverseHalfLL(ListNode* head){
-        ListNode* prev = NULL;
-        while(head){
-            ListNode* next = head->next;
-            head->next = prev;
-            prev = head;
-            head = next;
-        } 
-        return prev;  // new Head
-    }
-
     bool isPalindrome(ListNode* head) {
-        // Base case
-        if(head == NULL || head->next == NULL){
+        // Approach : Slight Optimisation to previous Approach
+        // Instead of traversing complete linked list first to find middle node and then traverse second half
+        // Directly reverse first half while finding middle node
+
+        if (head == NULL || head->next == NULL)
             return true;
-        }
-        // Approach : reversing the 2nd half and compare the two halves
 
-        // Find middle using slow-fast pointers
-        ListNode* slow = head, *fast = head;
+        ListNode* slow = head;
+        ListNode* fast = head;
+        ListNode* prev = NULL;
 
-        while(fast && fast->next){
+        // Reverse the first half of the linked list
+        while (fast && fast->next) {
             fast = fast->next->next;
+
+            // Reverse the slow pointer's next pointer
+            ListNode* tmp = slow->next;
+            slow->next = prev;
+            prev = slow;
+            slow = tmp;
+        }
+
+        //  if the length of the linked list is odd(Skip middle node)
+        if (fast != NULL) {
             slow = slow->next;
         }
 
-        // if LL is of Odd length , skip middle node
-        if(fast != NULL){
-            slow = slow->next;
-        }
+        // Prev => new head of reversed first half
+        // Slow => head of second half
 
-        slow = reverseHalfLL(slow);  // slow points to reversed half LL
-        fast = head;  // fast points to Original head
-
-        while(slow){
-            if(slow->val != fast->val )
+        // Compare the reversed first half with the second half of the linked list
+        while (prev && slow) {
+            // If values mismatch, the linked list is not a palindrome
+            if (prev->val != slow->val)
                 return false;
-            slow = slow->next;
-            fast = fast->next;
-        }
-        return true;
 
+            slow = slow->next;
+            prev = prev->next;
+        }
+
+        return true;
     }
 };
