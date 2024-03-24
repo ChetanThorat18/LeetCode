@@ -36,3 +36,10 @@ public:
         return true;
     }
 };
+
+/*
+    Reason for using two maps : 
+        If We use only one map , it will not handle case of two characters getting mapped to same character.
+        Eg- s = "badc"
+            t = "baba"
+*/
