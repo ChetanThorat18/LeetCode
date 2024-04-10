@@ -1,22 +1,23 @@
 class Solution {
 public:
     int timeRequiredToBuy(vector<int>& tickets, int k) {
-        // Approach: Simulation as per problem definition
-        int totalTime = 0;
-        
-        // Loop until the person at position k (index k) has bought all their tickets
-        while(tickets[k] > 0){
-            // Loop through all the people in the line
-            for(int i = 0; i < tickets.size(); i++){
-                if(tickets[i] > 0){ // If the person has remaining tickets
-                    tickets[i]--; // Decrease the number of tickets they want to buy by 1
-                    totalTime++; // Increase the total time taken by 1 second
-                    if (i == k && tickets[i] == 0) // If the person at position k has bought all their tickets
-                        break; // stop the simulation
-                }
+        // Optimal Approach : One pass
+        int n = tickets.size();;
+
+        int time = 0;
+        for(int i = 0; i < n; i++) {
+            if(i <= k) { // If the person is in front of or at the same position as k
+                // The time taken to buy tickets for the person at this position is the minimum of the tickets 
+                // requested by the current person and the person at position k
+                time += min(tickets[i], tickets[k]);
+            } else { // If the person is behind position k
+                // The time taken to buy tickets for the person at this position is the minimum of one less ticket
+                // requested by the person at position k (since they buy one ticket for themselves in each pass)
+                // and the tickets requested by the current person
+                time += min(tickets[k] - 1, tickets[i]);
             }
         }
 
-        return totalTime; // Return the total time taken for the person at position k to finish buying tickets
+        return time;
     }
 };
