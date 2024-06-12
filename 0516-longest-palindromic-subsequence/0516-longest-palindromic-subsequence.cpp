@@ -19,13 +19,12 @@ public:
                     dp[i][j] = 1 + dp[i - 1][j - 1];
                 } else {
                     // If the characters don't match, take the maximum length of LCS from either
-                    // excluding the last character of text1 or excluding the last character of text2
+                    // excluding the last character of s1 or excluding the last character of s2
                     dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
                 }
             }
         }
 
-        // Return the length of LCS of the entire strings text1 and text2
         return dp[n][n];
     }
 };
