@@ -38,8 +38,11 @@
 | 48          | [Rotate Image](Leetcode_Problems/0048-rotate-image) | Medium |
 | 49          | [Group Anagrams](Leetcode_Problems/0049-group-anagrams) | Medium |
 | 50          | [Pow(x, n)](Leetcode_Problems/0050-powx-n) | Medium |
+| 51          | [N-Queens](Leetcode_Problems/0051-n-queens) | Hard |
+| 55          | [Jump Game](Leetcode_Problems/0055-jump-game) | Medium |
 | 58          | [Length of Last Word](Leetcode_Problems/0058-length-of-last-word) | Easy |
 | 61          | [Rotate List](Leetcode_Problems/0061-rotate-list) | Medium |
+| 64          | [Minimum Path Sum](Leetcode_Problems/0064-minimum-path-sum) | Medium |
 | 66          | [Plus One](Leetcode_Problems/0066-plus-one) | Easy |
 | 67          | [Add Binary](Leetcode_Problems/0067-add-binary) | Easy |
 | 69          | [Sqrt(x)](Leetcode_Problems/0069-sqrtx) | Easy |
@@ -75,6 +78,7 @@
 | 179         | [Largest Number](Leetcode_Problems/0179-largest-number) | Medium |
 | 189         | [Rotate Array](Leetcode_Problems/0189-rotate-array) | Easy |
 | 191         | [Number of 1 Bits](Leetcode_Problems/0191-number-of-1-bits) | Easy |
+| 198         | [House Robber](Leetcode_Problems/0198-house-robber) | Medium |
 | 202         | [Happy Number](Leetcode_Problems/0202-happy-number) | Easy |
 | 203         | [Remove Linked List Elements](Leetcode_Problems/0203-remove-linked-list-elements) | Easy |
 | 205         | [Isomorphic Strings](Leetcode_Problems/0205-isomorphic-strings) | Easy |
@@ -91,8 +95,10 @@
 | 242         | [Valid Anagram](Leetcode_Problems/0242-valid-anagram) | Easy |
 | 258        | [Add Digits](Leetcode_Problems/0258-add-digits) | Easy |
 | 268         | [Missing Number](Leetcode_Problems/0268-missing-number) | Easy |
+| 279         | [Perfect Squares](Leetcode_Problems/0279-perfect-squares) | Medium |
 | 283         | [Move Zeroes](Leetcode_Problems/0283-move-zeroes) | Easy |
 | 290         | [Word Pattern](Leetcode_Problems/0290-word-pattern) | Easy |
+| 309         | [Best Time to Buy and Sell Stock with Cooldown](Leetcode_Problems/0309-best-time-to-buy-and-sell-stock-with-cooldown) | Medium |
 | 328         | [Odd Even Linked List](Leetcode_Problems/0328-odd-even-linked-list) | Medium |
 | 334         | [Increasing Triplet Subsequence](Leetcode_Problems/0334-increasing-triplet-subsequence) | Medium |
 | 338         | [Counting Bits](Leetcode_Problems/0338-counting-bits) | Easy |
@@ -116,14 +122,19 @@
 | 452         | [Minimum Number of Arrows to Burst Balloons](Leetcode_Problems/0452-minimum-number-of-arrows-to-burst-balloons) | Medium |
 | 455         | [Assign Cookies](Leetcode_Problems/0455-assign-cookies) | Easy |
 | 463         | [Island Perimeter](Leetcode_Problems/0463-island-perimeter) | Easy |
+| 476         | [Number Complement](Leetcode_Problems/0476-number-complement) | Easy |
 | 496         | [Next Greater Element I](Leetcode_Problems/0496-next-greater-element-i) | Easy |
 | 498         | [Diagonal Traverse](Leetcode_Problems/0498-diagonal-traverse) | Medium |
 | 503         | [Next Greater Element II](Leetcode_Problems/0503-next-greater-element-ii) | Medium |
+| 516         | [Longest Palindromic Subsequence](Leetcode_Problems/0516-longest-palindromic-subsequence) | Medium |
 | 520         | [Detect Capital](Leetcode_Problems/0520-detect-capital) | Easy |
+| 523         | [Continuous Subarray Sum](Leetcode_Problems/0523-continuous-subarray-sum) | Medium |
 | 525         | [Contiguous Array](Leetcode_Problems/0525-contiguous-array) | Medium |
 | 532         | [K-diff Pairs in an Array](Leetcode_Problems/0532-k-diff-pairs-in-an-array) | Easy |
 | 557         | [Reverse Words in a String III](Leetcode_Problems/0557-reverse-words-in-a-string-iii) | Easy |
 | 560         | [Subarray Sum Equals K](Leetcode_Problems/0560-subarray-sum-equals-k) | Medium |
+| 645         | [Set Mismatch](Leetcode_Problems/0645-set-mismatch) | Easy |
+| 648         | [Replace Words](Leetcode_Problems/0648-replace-words) | Medium |
 | 658         | [Find K Closest Elements](Leetcode_Problems/0658-find-k-closest-elements) | Medium |
 | 692         | [Top K Frequent Words](Leetcode_Problems/0692-top-k-frequent-words) | Medium |
 | 704         | [Binary Search](Leetcode_Problems/0704-binary-search) | Easy |
@@ -133,27 +144,40 @@
 | 766         | [Toeplitz Matrix](Leetcode_Problems/0766-toeplitz-matrix) | Easy |
 | 791         | [Custom Sort String](Leetcode_Problems/0791-custom-sort-string) | Medium |
 | 844         | [Backspace String Compare](Leetcode_Problems/0844-backspace-string-compare) | Easy |
+| 846         | [Hand of Straights](Leetcode_Problems/0846-hand-of-straights) | Medium |
 | 852         | [Peak Index in a Mountain Array](Leetcode_Problems/0852-peak-index-in-a-mountain-array) | Easy |
 | 859         | [Buddy Strings](Leetcode_Problems/0859-buddy-strings) | Easy |
 | 875         | [Koko Eating Bananas](Leetcode_Problems/0875-koko-eating-bananas) | Medium |
 | 876         | [Middle of the Linked List](Leetcode_Problems/0876-middle-of-the-linked-list) | Easy |
 | 899         | [Orderly Queue](Leetcode_Problems/0899-orderly-queue) | Hard |
 | 917         | [Reverse Only Letters](Leetcode_Problems/0917-reverse-only-letters) | Easy |
+| 926         | [Flip String to Monotone Increasing](Leetcode_Problems/0926-flip-string-to-monotone-increasing) | Medium |
+| 931         | [Minimum Falling Path Sum](Leetcode_Problems/0931-minimum-falling-path-sum) | Medium |
 | 941         | [Valid Mountain Array](Leetcode_Problems/0941-valid-mountain-array) | Easy |
 | 944         | [Delete Columns to Make Sorted](Leetcode_Problems/0944-delete-columns-to-make-sorted) | Easy |
+| 974         | [Subarray Sums Divisible by K](Leetcode_Problems/0974-subarray-sums-divisible-by-k) | Medium |
 | 977         | [Squares of a Sorted Array](Leetcode_Problems/0977-squares-of-a-sorted-array) | Easy |
+| 983         | [Minimum Cost For Tickets](Leetcode_Problems/0983-minimum-cost-for-tickets) | Medium |
 | 985         | [Sum of Even Numbers After Queries](Leetcode_Problems/0985-sum-of-even-numbers-after-queries) | Medium |
+| 1002        | [Find Common Characters](Leetcode_Problems/1002-find-common-characters) | Easy |
+| 1011        | [Capacity To Ship Packages Within D Days](Leetcode_Problems/1011-capacity-to-ship-packages-within-d-days) | Medium |
 | 1019        | [Next Greater Node in Linked List](Leetcode_Problems/1019-next-greater-node-in-linked-list) | Medium |
 | 1046        | [Last Stone Weight](Leetcode_Problems/1046-last-stone-weight) | Easy |
 | 1047        | [Remove All Adjacent Duplicates in String](Leetcode_Problems/1047-remove-all-adjacent-duplicates-in-string) | Easy |
+| 1051        | [Height Checker](Leetcode_Problems/1051-height-checker) | Easy |
 | 1094        | [Car Pooling](Leetcode_Problems/1094-car-pooling) | Medium |
 | 1095        | [Find in Mountain Array](Leetcode_Problems/1095-find-in-mountain-array) | Hard |
+| 1122        | [Relative Sort Array](Leetcode_Problems/1122-relative-sort-array) | Easy |
+| 1143        | [Longest Common Subsequence](Leetcode_Problems/1143-longest-common-subsequence) | Medium |
 | 1160        | [Find Words That Can Be Formed by Characters](Leetcode_Problems/1160-find-words-that-can-be-formed-by-characters) | Easy |
 | 1171        | [Remove Zero Sum Consecutive Nodes from Linked List](Leetcode_Problems/1171-remove-zero-sum-consecutive-nodes-from-linked-list) | Medium |
 | 1207        | [Unique Number of Occurrences](Leetcode_Problems/1207-unique-number-of-occurrences) | Easy |
+| 1235        | [Maximum Profit in Job Scheduling](Leetcode_Problems/1235-maximum-profit-in-job-scheduling) | Hard |
+| 1239        | [Maximum Length of a Concatenated String with Unique Characters](Leetcode_Problems/1239-maximum-length-of-a-concatenated-string-with-unique-characters) | Medium |
 | 1249        | [Minimum Remove to Make Valid Parentheses](Leetcode_Problems/1249-minimum-remove-to-make-valid-parentheses) | Medium |
 | 1318        | [Minimum Flips to Make a OR b Equal to c](Leetcode_Problems/1318-minimum-flips-to-make-a-or-b-equal-to-c) | Medium |
 | 1329        | [Sort the Matrix Diagonally](Leetcode_Problems/1329-sort-the-matrix-diagonally) | Medium |
+| 1335        | [Minimum Difficulty of a Job Schedule](Leetcode_Problems/1335-minimum-difficulty-of-a-job-schedule) | Hard |
 | 1356        | [Sort Integers by The Number of 1 Bits](Leetcode_Problems/1356-sort-integers-by-the-number-of-1-bits) | Easy |
 | 1422        | [Maximum Score After Splitting a String](Leetcode_Problems/1422-maximum-score-after-splitting-a-string) | Easy |
 | 1436        | [Destination City](Leetcode_Problems/1436-destination-city) | Easy |
@@ -163,6 +187,7 @@
 | 1512        | [Number of Good Pairs](Leetcode_Problems/1512-number-of-good-pairs) | Easy |
 | 1539        | [Kth Missing Positive Number](Leetcode_Problems/1539-kth-missing-positive-number) | Easy |
 | 1544        | [Make The String Great](Leetcode_Problems/1544-make-the-string-great) | Easy |
+| 1608        | [Special Array With X Elements Greater Than or Equal X](Leetcode_Problems/1608-special-array-with-x-elements-greater-than-or-equal-x) | Easy |
 | 1614        | [Maximum Nesting Depth of the Parentheses](Leetcode_Problems/1614-maximum-nesting-depth-of-the-parentheses) | Easy |
 | 1624        | [Largest Substring Between Two Equal Characters](Leetcode_Problems/1624-largest-substring-between-two-equal-characters) | Easy |
 | 1636        | [Sort Array by Increasing Frequency](Leetcode_Problems/1636-sort-array-by-increasing-frequency) | Easy |
@@ -183,10 +208,12 @@
 | 1870        | [Minimum Speed to Arrive on Time](Leetcode_Problems/1870-minimum-speed-to-arrive-on-time) | Medium |
 | 1897 | [Redistribute Characters to Make All Strings Equal](Leetcode_Problems/1897-redistribute-characters-to-make-all-strings-equal) | Easy |
 | 1903        | [Largest Odd Number in String](Leetcode_Problems/1903-largest-odd-number-in-string) | Easy |
+| 1911        | [Maximum Alternating Subsequence Sum](Leetcode_Problems/1911-maximum-alternating-subsequence-sum) | Medium |
 | 1913        | [Maximum Product Difference Between Two Pairs](Leetcode_Problems/1913-maximum-product-difference-between-two-pairs) | Easy |
 | 1962        | [Remove Stones to Minimize the Total](Leetcode_Problems/1962-remove-stones-to-minimize-the-total) | Medium |
 | 2007        | [Find Original Array From Doubled Array](Leetcode_Problems/2007-find-original-array-from-doubled-array) | Medium |
 | 2024        | [Maximize the Confusion of an Exam](Leetcode_Problems/2024-maximize-the-confusion-of-an-exam) | Medium |
+| 2037        | [Minimum Number of Moves to Seat Everyone](Leetcode_Problems/2037-minimum-number-of-moves-to-seat-everyone) | Easy |
 | 2073        | [Time Needed to Buy Tickets](Leetcode_Problems/2073-time-needed-to-buy-tickets) | Easy |
 | 2090        | [K-Radius Subarray Averages](Leetcode_Problems/2090-k-radius-subarray-averages) | Medium |
 | 2095        | [Delete the Middle Node of a Linked List](Leetcode_Problems/2095-delete-the-middle-node-of-a-linked-list) | Medium |
@@ -195,12 +222,14 @@
 | 2130        | [Maximum Twin Sum of a Linked List](Leetcode_Problems/2130-maximum-twin-sum-of-a-linked-list) | Medium |
 | 2149        | [Rearrange Array Elements by Sign](Leetcode_Problems/2149-rearrange-array-elements-by-sign) | Medium |
 | 2187        | [Minimum Time to Complete Trips](Leetcode_Problems/2187-minimum-time-to-complete-trips) | Hard |
+| 2218        | [Maximum Value of K Coins From Piles](Leetcode_Problems/2218-maximum-value-of-k-coins-from-piles) | Hard |
 | 2225        | [Find Players with Zero or One Losses](Leetcode_Problems/2225-find-players-with-zero-or-one-losses) | Medium |
 | 2251        | [Number of Flowers in Full Bloom](Leetcode_Problems/2251-number-of-flowers-in-full-bloom) | Hard |
 | 2256        | [Minimum Average Difference](Leetcode_Problems/2256-minimum-average-difference) | Medium |
 | 2264        | [Largest 3-Same-Digit Number in String](Leetcode_Problems/2264-largest-3-same-digit-number-in-string) | Medium |
 | 2300        | [Successful Pairs of Spells and Potions](Leetcode_Problems/2300-successful-pairs-of-spells-and-potions) | Medium |
 | 2352        | [Equal Row and Column Pairs](Leetcode_Problems/2352-equal-row-and-column-pairs) | Medium |
+| 2373        | [Largest Local Values in a Matrix](Leetcode_Problems/2373-largest-local-values-in-a-matrix) | Easy |
 | 2433        | [Find The Original Array of Prefix XOR](Leetcode_Problems/2433-find-the-original-array-of-prefix-xor) | Medium |
 | 2448        | [Minimum Cost to Make Array Equal](Leetcode_Problems/2448-minimum-cost-to-make-array-equal) | Medium |
 | 2462        | [Total Cost to Hire K Workers](Leetcode_Problems/2462-total-cost-to-hire-k-workers) | Medium |
@@ -209,6 +238,7 @@
 | 2706        | [Buy Two Chocolates](Leetcode_Problems/2706-buy-two-chocolates) | Easy |
 | 2733        | [Neither Minimum nor Maximum](Leetcode_Problems/2733-neither-minimum-nor-maximum) | Easy |
 | 2785        | [Sort Vowels in a String](Leetcode_Problems/2785-sort-vowels-in-a-string) | Medium |
+| 2824        | [Count Pairs Whose Sum is Less Than Target](Leetcode_Problems/2824-count-pairs-whose-sum-is-less-than-target) | Easy |
 | 2864        | [Maximum Odd Binary Number](Leetcode_Problems/2864-maximum-odd-binary-number) | Easy |
 | 2958        | [Length of Longest Subarray with at Most K Frequency](Leetcode_Problems/2958-length-of-longest-subarray-with-at-most-k-frequency) | Medium |
 | 2962        | [Count Subarrays Where Max Element Appears at Least K Times](Leetcode_Problems/2962-count-subarrays-where-max-element-appears-at-least-k-times) | Medium |
@@ -216,3 +246,6 @@
 | 3005        | [Count Elements with Maximum Frequency](Leetcode_Problems/3005-count-elements-with-maximum-frequency) | Easy |
 | 3084        | [Count Substrings Starting and Ending with Given Character](Leetcode_Problems/3084-count-substrings-starting-and-ending-with-given-character) | Medium |
 | 3101        | [Count Alternating Subarrays](Leetcode_Problems/3101-count-alternating-subarrays) | Medium |
+| 3174        | [Clear Digits](Leetcode_Problems/3174-clear-digits) | Medium |
+| 3175        | [Find the First Player to Win K Games in a Row](Leetcode_Problems/3175-find-the-first-player-to-win-k-games-in-a-row) | Medium |
+| 3178        | [Find the Child Who Has the Ball After K Seconds](Leetcode_Problems/3178-find-the-child-who-has-the-ball-after-k-seconds) | Easy |
