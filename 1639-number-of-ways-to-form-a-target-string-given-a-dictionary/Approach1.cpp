@@ -33,7 +33,7 @@ public:
     }
 
     int numWays(vector<string>& words, string target) {
-        // Approach 1 : Recursion + M
+        // Approach 1 : Recursion 
         m = words[0].length();
         n = target.length();
 
